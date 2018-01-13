@@ -16,6 +16,8 @@ A Neural Image Caption Generator.
     
     sudo apt update && sudo apt install bazel
     
+Based on [Installing Bazel on Ubuntu](https://docs.bazel.build/versions/master/install-ubuntu.html)
+    
 ## Tensorflow
     
     sudo pip install -U pip
