@@ -24,7 +24,11 @@ A Neural Image Caption Generator.
     
     sudo pip install -U pip
     sudo pip install tensorflow==1.0
-    
+
+### Extract Model Checkpoint
+
+    7z e model.7z
+
 ### im2txt
 
     svn export https://github.com/tensorflow/models/trunk/research/im2txt
