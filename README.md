@@ -26,7 +26,7 @@ Based on [Installing Bazel on Ubuntu](https://docs.bazel.build/versions/master/i
 ### Extract Model Checkpoint
 
     sudo apt install p7zip-full
-    7z e model.7z
+    7z e model.7z.001
 
 ### im2txt
 
