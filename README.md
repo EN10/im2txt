@@ -25,15 +25,16 @@ Based on [Installing Bazel on Ubuntu](https://docs.bazel.build/versions/master/i
 
 ### Extract Model Checkpoint
 
+    sudo apt install p7zip-full
     7z e model.7z
 
 ### im2txt
 
     svn export https://github.com/tensorflow/models/trunk/research/im2txt
     
-    CHECKPOINT_PATH="/home/ubuntu/workspace/model.ckpt-2000000"
-    VOCAB_FILE="/home/ubuntu/workspace/word_counts.txt"
-    IMAGE_FILE="/home/ubuntu/workspace/image.jpg"
+    CHECKPOINT_PATH="/home/ubuntu/workspace/im2txt/model.ckpt-2000000"
+    VOCAB_FILE="/home/ubuntu/workspace/im2txt/word_counts.txt"
+    IMAGE_FILE="/home/ubuntu/workspace/im2txt/image.jpg"
     
     cd im2txt/
     bazel build -c opt //im2txt:run_inference
