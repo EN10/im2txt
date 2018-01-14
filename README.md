@@ -1,6 +1,8 @@
 # im2txt
 A Neural Image Caption Generator.    
 
+![Kite](https://github.com/EN10/im2txt/raw/master/Caption4.png)
+
 * Based on [KranthiGV Show and Tell](https://github.com/KranthiGV/Pretrained-Show-and-Tell-model)     
 * Which is based on [Google Show and Tell GitHub](https://github.com/tensorflow/models/tree/master/research/im2txt)  
 * [Show and Tell Google Blog](https://research.googleblog.com/2016/09/show-and-tell-image-captioning-open.html)
